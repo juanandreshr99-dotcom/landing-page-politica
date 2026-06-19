@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laura Jiménez - Candidata por el Cambio</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Juan Herrera</div>
+        <nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+          ☰
+        </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propuestas">Propuestas</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Unidos Construimos un Mejor Futuro</h1>
+            <p>Trabajando por una comunidad más justa, próspera y participativa.</p>
+            <a href="#propuestas" class="btn-primary">Conoce mis propuestas</a>
+        </div>
+    </section>
+
+    <section id="propuestas" class="propuestas">
+        <h2>Propuestas Principales</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Educación</h3>
+                <p>
+                    Más cupos en instituciones públicas y programas de formación técnica gratuitos para jóvenes.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Empleo</h3>
+                <p>
+                    Apoyo a emprendedores locales y alianzas con empresas para generar nuevas oportunidades laborales.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Seguridad</h3>
+                <p>
+                    Más presencia comunitaria y programas de prevención en los barrios más vulnerables.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Medio Ambiente</h3>
+                <p>
+                    Programas de reciclaje, zonas verdes y movilidad sostenible para toda la comunidad.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="biografia" class="biografia">
+        <h2>¿Quién es Laura Jiménez?</h2>
+        <p>
+            Laura es trabajadora social con más de 10 años de experiencia liderando proyectos comunitarios. Ha trabajado de la mano con líderes barriales, jóvenes y adultos mayores para construir soluciones reales a los problemas del día a día. Su compromiso es representar
+            la voz de quienes muchas veces no son escuchados.
+        </p>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contactForm">
+            <input type="text" id="nombre" placeholder="Tu nombre" required />
+            <input type="email" id="email" placeholder="Tu correo electrónico" required />
+            <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Campaña Laura Jiménez. Proyecto académico SENA - ADSO.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
